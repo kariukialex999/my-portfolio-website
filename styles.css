@@ -219,50 +219,96 @@ nav .right a span {
   font-size: 18px;
 }
 
-/* SECTION 3: Testimony */
-.testimony-section {
+/* SECTION 3: project */
+.project-section {
+  padding: 0 50px;
+  margin-bottom: 100px;
+}
+.project-section h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.project-section .group {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.project-section .group .text {
+  flex: 3;
+  margin-top: 20px;
+}
+
+.project-section .group .text h3 {
+  font-size: 25px;
+}
+
+.project-section .group .text p {
+  font-size: 18px;
+}
+.project-section .group .project-details ul{
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+
+/* SECTION 4: Education */
+.education-section {
+  padding: 0 50px;
+  margin-bottom: 100px;
+} 
+
+.education-section h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.education-section .h3 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.education-section .group {
+  display: flex;
+  gap: 50px;
+}
+.education-section .group .text {
+  flex: 3;
+  margin-top: 20px;
+}
+
+.education-section .group .text h3 {
+  font-size: 25px;
+}
+
+.education-section .group .text p {
+  font-size: 18px;
+}
+
+.education-section .group .text ul {
+  margin-left: 15px;
+}
+
+/* SECTION 5: Interest */
+
+.interest-section {
   padding: 0 50px;
   margin-bottom: 100px;
 }
 
-.testimony-section h2 {
-  font-size: 35px;
-  margin-bottom: 30px;
-}
-
-.testimony-section .group {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-}
-
-.testimony-section .group .person-details {
+.interest-section h2 {
   text-align: center;
-  flex: 2;
+  font-size: 35px;
 }
 
-.testimony-section .group .person-details img {
-  width: 200px;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 10px;
+.interest-section .group ul {
+  margin-left: 15px;
 }
 
-.testimony-section .group .person-details p {
-  font-weight: 600;
-}
-
-.testimony-section .group .person-details p:last-child {
-  font-weight: normal;
-}
-
-.testimony-section .group .text {
-  font-style: italic;
-  flex: 8;
-}
-
-/* SECTION 4: Contact */
+/* SECTION 6: Contact */
 .contact-section {
   padding: 0 50px;
   margin-bottom: 100px;
